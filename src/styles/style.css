@@ -1,0 +1,170 @@
+html, body, ul, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+
+.wrapper {
+	font: 20px Arial, sans-serif;
+	margin: 0 auto;
+	width: 1150px;
+	
+}
+
+.header {
+	margin: 0 0 60px;	
+}
+
+.nav {
+	background: #EE6B9E;
+	height: 65px;
+	width: 1150px;
+}
+
+.nav__list {
+	display: inline-block;
+	list-style: none;
+}
+
+.nav__list-item {
+	display: inline-block;
+	margin: 0 55px;
+}
+
+.nav__link {
+	cursor: pointer;
+	display: inline-block;
+	color: #EE6B9E;
+	text-decoration: none;
+	padding: 10px 20px;
+	top:50px;
+}
+
+.nav__link:hover {
+	color: #87ceeb;
+	transition: color .3s linear;
+}
+
+.info {
+	background: #EE6B9E;
+	height: 500px;
+	width: 1150px;
+	margin: 0 0 55px;
+	background-image: url("../assets/img/603731393.jpg");
+	
+}
+
+.info__avatar {
+	background: url("../assets/img/avatar.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 400px 400px;
+	display: inline-block;
+	float: left;
+	margin: 70px 30px 0 0;
+	width: 600px;
+	height: 400px;
+}
+
+.basic-info {
+	display: inline-block;
+	width: 500px;
+	height: 300px;
+	position: absolute;
+	top: 125px;
+
+
+}
+
+.basic-info__text-header {
+	font: 30px Arial, sans-serif;
+	color: #7F1025;
+	margin: 0 auto;
+	font-weight: bold;
+}
+
+
+.basic-info__text-name {
+	font: 25px Arial, sans-serif;
+	line-height: 50px;
+	color: #7F1025;
+	top: 50px;
+}
+
+.basic-info__text {
+	display: inline-block;
+	color: #970026;
+	
+}
+
+.basic-info__text-item {
+	list-style: none;
+	color: #000;
+	margin: 0 0 15px;
+	line-height: 25px;
+}
+
+.additional-info {
+	background: #FFFBE1;
+	display: inline-block;
+	margin: 0 50px 0 0;
+	height: 500px;
+	width: 547px; 
+	color: #7F1025;
+	line-height: 50px;
+	font-weight: bold;
+}	
+.education-header {
+	font: 30px Arial, sans-serif;
+	color: #7F1025;
+	margin: 0 auto;
+	font-weight: bold;
+	line-height: 50px;
+}
+.additional-info__text-item{
+	color: #000;
+	margin: 20 0 20px;
+	font: 20px Arial, sans-serif;
+	display: inline-block;
+	line-height: 25px;
+	
+}
+
+
+.hobby {
+	background: #FFFBE1;
+	display: inline-block;
+	height: 500px;
+	width: 547px;
+	color: #7F1025;	
+	line-height: 30px;
+	font-weight: bold;
+	margin: 20 0 20px;
+	
+
+}
+.hobby-header {
+	font: 30px Arial, sans-serif;
+	color: #7F1025;
+	margin: 0 auto;
+	font-weight: bold;
+	line-height: 50px;
+	
+}
+.hobby-info__text{
+	color: #000;
+	margin: 20 0 20px;
+	font: 20px Arial, sans-serif;
+	display: inline-block;
+	
+	line-height: 30px;
+}
+.youtube-video{
+	
+	background: #fff;
+	display: inline-block;
+	height: 500px;
+	width: 547px; 
+	margin: 0 50px 0 0;
+	
+}
